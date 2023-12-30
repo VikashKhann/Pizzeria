@@ -1,0 +1,13 @@
+button{
+    margin-left: 15%;
+    margin-right:auto;
+}
+.card-body:hover {
+    transform: scale(1.01);
+}
+.card-body{
+    border-radius: 5%;
+}
+img:hover{
+    transform: scale(1.1);
+}

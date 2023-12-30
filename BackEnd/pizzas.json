@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "name": "Pizza Margherita",
+      "price": 10.99,
+      "image": "pizza_margherita.jpg",
+      "type": "Pizza",
+      "description": "Classic Margherita pizza with tomato, mozzarella, and basil.",
+      "ingredients": ["tomato", "mozzarella", "basil"],
+      "topping": ["none"]
+    },
+    {
+      "id": 2,
+      "name": "Chicken Alfredo Pasta",
+      "price": 12.99,
+      "image": "chicken_alfredo_pasta.jpg",
+      "type": "Pasta",
+      "description": "Creamy Alfredo pasta with grilled chicken.",
+      "ingredients": ["pasta", "chicken", "cream sauce"],
+      "topping": ["Parmesan cheese"]
+    },
+    {
+      "id": 3,
+      "name": "Caesar Salad",
+      "price": 7.99,
+      "image": "caesar_salad.jpg",
+      "type": "Salad",
+      "description": "Fresh Caesar salad with romaine lettuce, croutons, and Caesar dressing.",
+      "ingredients": ["romaine lettuce", "croutons", "Caesar dressing"],
+      "topping": ["grilled chicken"]
+    },
+    {
+      "id": 4,
+      "name": "Burger Deluxe",
+      "price": 8.99,
+      "image": "burger_deluxe.jpg",
+      "type": "Burger",
+      "description": "Classic beef burger with lettuce, tomato, and special sauce.",
+      "ingredients": ["beef patty", "lettuce", "tomato", "special sauce"],
+      "topping": ["cheddar cheese"]
+    },
+    {
+      "id": 5,
+      "name": "Vegetarian Sushi Roll",
+      "price": 9.99,
+      "image": "vegetarian_sushi_roll.jpg",
+      "type": "Sushi",
+      "description": "Vegetarian sushi roll with avocado, cucumber, and carrot.",
+      "ingredients": ["rice", "avocado", "cucumber", "carrot"],
+      "topping": ["soy sauce"]
+    },
+    {
+      "id": 6,
+      "name": "Fruit Smoothie",
+      "price": 5.99,
+      "image": "fruit_smoothie.jpg",
+      "type": "Beverage",
+      "description": "Refreshing fruit smoothie with mixed berries and banana.",
+      "ingredients": ["mixed berries", "banana", "yogurt"],
+      "topping": ["none"]
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Brownie Sundae",
+      "price": 6.99,
+      "image": "chocolate_brownie_sundae.jpg",
+      "type": "Dessert",
+      "description": "Decadent chocolate brownie sundae with vanilla ice cream and whipped cream.",
+      "ingredients": ["chocolate brownie", "vanilla ice cream", "whipped cream"],
+      "topping": ["chocolate sauce"]
+    },
+    {
+      "id": 8,
+      "name": "Grilled Salmon",
+      "price": 14.99,
+      "image": "grilled_salmon.jpg",
+      "type": "Seafood",
+      "description": "Grilled salmon fillet with lemon and herbs.",
+      "ingredients": ["salmon", "lemon", "herbs"],
+      "topping": ["none"]
+    },
+    {
+      "id": 9,
+      "name": "Mango Tango Smoothie",
+      "price": 4.99,
+      "image": "mango_tango_smoothie.jpg",
+      "type": "Beverage",
+      "description": "Tropical mango smoothie with pineapple and coconut milk.",
+      "ingredients": ["mango", "pineapple", "coconut milk"],
+      "topping": ["mint leaves"]
+    },
+    {
+      "id": 10,
+      "name": "Caprese Panini",
+      "price": 11.99,
+      "image": "caprese_panini.jpg",
+      "type": "Sandwich",
+      "description": "Caprese panini with fresh mozzarella, tomato, and basil.",
+      "ingredients": ["fresh mozzarella", "tomato", "basil", "ciabatta bread"],
+      "topping": ["balsamic glaze"]
+    }
+  ]
+  

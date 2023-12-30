@@ -1,0 +1,38 @@
+<br><br>
+<div class="container shadow-lg">
+    <div class="row">
+        
+        <div class="card-body col-sm-12 shadow-sm"  *ngFor="let pizza of cartlist">
+            <div class="row">
+                <div class="col-2">
+                    <b>{{pizza.name}}</b>
+                    <div *ngIf="pizza.type==='veg'">
+                        <!-- <span style="margin-left: 25%;" class="veg-indian-vegetarian"></span> -->
+                        <img style="margin-left: 25%;" src="../../assets/veg.png" width="20" height="20">
+                    </div>
+                    <div *ngIf="pizza.type==='nonveg'">
+                        <img style="margin-left: 25%;" src="../../assets/nonveg.png" width="20" height="20">
+                    </div>
+                    <p>{{pizza.price | currency:'INR'}}</p>
+                </div>
+                <div class="col-6">
+                    <p>{{pizza.description}}</p>
+                    <p><b>Ingredients: </b>{{pizza.ingredients}}</p>
+                    <p><b>Toppings: </b>{{pizza.topping}}</p>
+                </div>
+                <div class="col-4">
+                    <img src="{{pizza.image}}" width="150" height="150">
+                    <button class="btn btn-warning" style="height: 30px; width: 50px;margin-left: 10%; padding: 0%;" (click)="decquant()">-</button>
+                    {{quantity}} 
+                     <button class="btn btn-warning" style="height: 30px; width: 50px;margin: 0%; padding: 0%;" (click)="incquant()">+</button>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center">
+            <h2><strong>Total price  : {{totalprice | currency:"INR"}} </strong></h2>
+            <br>
+        </div>
+    </div>
+</div>
+<br><br>
+

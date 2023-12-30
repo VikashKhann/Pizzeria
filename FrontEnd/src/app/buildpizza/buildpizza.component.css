@@ -1,0 +1,24 @@
+table{
+    border:1px solid grey;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right:auto;
+}
+td{
+    border:1px solid grey;
+    padding: 10px;
+}
+tr:hover{
+    background-color: rgb(211, 209, 209);
+    transform: scale(1.01);
+}
+tr:nth-child(even){
+
+    background-color: #f2f2f2;
+
+}
+button{
+    margin-left: 45%;
+    margin-right:auto;
+}

@@ -1,0 +1,74 @@
+<br><br>
+<div class="container shadow-lg">
+    <div class="row">
+        
+        <div class="card-body col-sm-6 shadow-sm"  *ngFor="let pizza of pizzalist">
+            <div class="row">
+                <div class="col-2">
+                    <b>{{pizza.name}}</b>
+                    <div *ngIf="pizza.type==='veg'">
+                        <!-- <span style="margin-left: 25%;" class="veg-indian-vegetarian"></span> -->
+                        <img style="margin-left: 25%;" src="../../assets/veg.png" width="20" height="20">
+                    </div>
+                    <div *ngIf="pizza.type==='nonveg'">
+                        <img style="margin-left: 25%;" src="../../assets/nonveg.png" width="20" height="20">
+                    </div>
+                    <p>{{pizza.price | currency:'INR'}}</p>
+                </div>
+                <div class="col-6">
+                    <p>{{pizza.description}}</p>
+                    <p><b>Ingredients: </b>{{pizza.ingredients}}</p>
+                    <p><b>Toppings: </b>{{pizza.topping}}</p>
+                </div>
+                <div class="col-4">
+                    <img src="{{pizza.image}}" width="150" height="150">
+                    <button class="btn btn-warning my-2 my-sm-0" type="button" (click)="savedata(pizza)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <br><br>
+<div class="container">
+    <div class="row" >
+        <div class="col-sm-6 shadow-lg" *ngFor="let pizza of pizzalist">
+            <div class="card">
+                <div class="card-body">
+                    <table class="table table-responsive">
+                        <tr>
+                            <td><b>{{pizza.name}}</b></td>
+                            <td>{{pizza.description}}</td>
+                            <td rowspan="2"><img src="{{pizza.image}}" width="200" height="200"></td>
+                        </tr>
+                        <tr>
+                            <td>{{pizza.type}}</td>
+                            <td><b>Ingredients: </b>{{pizza.ingredients}}</td>
+                        </tr>
+                        <tr>
+                            <td>{{pizza.price | currency:'INR'}}</td>
+                            <td><b>Toppings: </b>{{pizza.topping}}</td>
+                            <td><button class="btn btn-warning my-2 my-sm-0" type="button">Add to cart</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->

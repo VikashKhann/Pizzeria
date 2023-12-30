@@ -1,0 +1,79 @@
+<br>
+<div class="container">
+<h3 align="center">Pizzeria Now gives you the option to select ingredients of your own!!</h3>
+<br>
+<div class="container">
+<table class="table table-hover shadow-lg">
+    <tr *ngFor="let ing of inglist">
+        <td> <img src="{{ing.image}}" style="height:50px;" alt="Card image"></td>
+        <td>{{ing.tname}} {{ing.price | currency:'INR'}}</td>
+        <td><input type="checkbox" id="isCheckBox" (change)="checkfun($event,ing.price)"> Add </td>
+    </tr>
+    <tr>
+        <td colspan="3"><b>Total Cost :{{Price}}</b></td>
+    </tr>
+</table>
+<button class="btn btn-warning my-2 my-sm-0" type="button">Build Your Pizza</button>
+</div>
+</div>
+<p></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <br>
+<div class="container">
+<h3 align="center">Pizzeria Now gives you the option to select ingredients of your own!!</h3>
+<br>
+<div class="container">
+<table class="table table-hover shadow-lg">
+    <tr *ngFor="let ing of inglist">
+        <td> <img src="{{ing.image}}" style="height:50px;" alt="Card image"></td>
+        <td>{{ing.tname}} {{ing.price | currency:'INR'}}</td>
+        <td width="100px">  <input type="checkbox"> Add </td>
+    </tr>
+    <tr>
+        <td colspan="3"><b>Total Cost :</b></td>
+    </tr>
+</table>
+<button class="btn btn-warning my-2 my-sm-0" type="button">Build Your Pizza</button>
+</div>
+</div>
+<p></p> -->
